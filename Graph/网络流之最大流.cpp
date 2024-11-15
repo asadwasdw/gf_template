@@ -2,12 +2,12 @@
 using namespace std;
 typedef long long ll;
 typedef pair<int,int>PII;
-const int N=1e6+10, M = 2e6 + 10;
 const int mod=998244353;
 const int INF  = 0x3f3f3f3f;
 const ll INFll  = 0x3f3f3f3f3f3f3f3f;
 #define endl "\n" 
 
+const int N=1e6+10, M = 2e6 + 10;
 vector<vector<int>>edg(N);
 int n, m, S, T;
 int h[N], ne[M], e[M], f[M], idx;
